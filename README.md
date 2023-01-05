@@ -51,7 +51,7 @@ A `TemplateInstance` instance is a subclass of `DocumentFragment` so it can
 be appended directly to the DOM. In addition it gets a new `update(params)`
 method that can be called to efficiently update the DOM parts.
 
-An optional third argument is de [template processor](#template-processor). 
+An optional third argument is the [template processor](#template-processor). 
 This hook allows you to handle each expression and DOM part in a specialized
 way. It allows you to write your own template language syntax, think Vue. 
 Everything between the curly braces can be parsed and evaluated as you see fit.
